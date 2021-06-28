@@ -1,0 +1,22 @@
+{
+	"name":"Cats and Dogs",
+	"version":"0.0.1",
+	"manifest_version":2,
+	"description":"Lets play the games of Cats and Dogs and get relax Come on!...",
+	"author":"JOEL T GEORGE",
+	"permissions":[
+		"activeTab"
+	],
+	"browser_action":{
+		"default_icon":"images/CatvsDog.png",
+		"default_popup":"index.html",
+		"js":["lib/jquery-3.6.0.js","js/index.js"],
+		"css":["index.css"]
+	},
+	"icons":{
+		"16":"images/CatvsDog16.png",
+		"32":"images/CatvsDog32.png",
+		"48":"images/CatvsDog48.png",
+		"128":"images/CatvsDog128.png"
+	}
+}	

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="index.css">
+	
+<body>
+	<div  class="row">
+		<div class="logo not-visibilty">
+			<div class="head">
+				<img class="a" src="/images/CatvsDog48.png" alt="Gamecode">
+
+				<p id="messages-display">let's Play</p>
+			</div>
+			</div>
+				
+		</div>
+		
+		
+		<div id="Userselection" class="form">
+			<label for="username1">Your name:</label><br>
+			<input type="text" placeholder="username" class="username" id ="username" name=""><br>
+			<label for="avatarcontainer">Which is you ?</label>
+			<div id="avatarcontainer">
+				<label for="avatarcat">Cat :</label>
+				<input type="radio" class="avatar" name="avatar"id ="avatarcat" value="0">
+				<label for="avatardog">Dog :</label>
+				<input type="radio" class="avatar" name="avatar" id="avatardog" value="1">
+			</div>
+			<label for="startcontainer">Game start by :</label>
+			<div id="startcontainer">
+				<label for="gamestartsme">Start me :</label>
+				<input type="checkbox" class="starter" name="starter" id="gamestartsme" value="0">
+				<label for="gamestartsit">Enemy :</label>
+				<input type="checkbox" class="starter" name="starter" id="gamestartsit" value="1"disabled>
+			</div>
+			<button id="startgame">Start Game</button>
+		</div>
+	</div>
+	<div id="Gamewindow"class="Game-window not-visibilty" >
+		<div id="Userprofiles"></div>
+		<div id="areagame">
+			<div id="block0" class="cell" value="0"><img src="/images/defaulticon.jpg"></div>
+			<div id="block1" class="cell" value="1"><img src="/images/defaulticon.jpg"></div>
+			<div id="block2" class="cell" value="2"><img src="/images/defaulticon.jpg"></div>
+			<div id="block3" class="cell" value="3"><img src="/images/defaulticon.jpg"></div>
+			<div id="block4" class="cell" value="4"><img src="/images/defaulticon.jpg"></div>
+			<div id="block5" class="cell" value="5"><img src="/images/defaulticon.jpg"></div>
+			<div id="block6" class="cell" value="6"><img src="/images/defaulticon.jpg"></div>
+			<div id="block7" class="cell" value="7"><img src="/images/defaulticon.jpg"></div>
+			<div id="block8" class="cell" value="8"><img src="/images/defaulticon.jpg"></div>
+		</div>
+
+		<div id="enemyprofiles"></div><br>
+		<div><button class="Restart">Restart</button></div>
+
+	</div>
+
+	<script type="text/javascript" src="/lib/jquery-3.6.0.js"></script>
+	<script type="text/javascript" src="/js/index.js"></script>
+</head>
+</body>
+</html>

@@ -1,0 +1,115 @@
+body{
+	font-family: cursive;
+	margin: 0.5em;
+	padding: 0;
+	width: 25em;
+	font-size: 0.150in;
+}
+.not-visibilty{
+	display:none;
+}
+#areagame{
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	padding: 0.3rem;
+	background-color: rgba(245, 240, 186,.6);
+	
+}
+.cell{
+	background-color: rgba(222, 247, 220,.9);
+  	border: 0.1rem solid rgba(0, 0, 0, 0.5);
+  	padding: 1rem;
+  	font-size: 0.3in;
+  	text-align: center;
+}
+.cell:hover{
+	background-color: rgba(245, 240, 186,.9);
+	
+
+}
+.head{
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+
+}
+.messages-display{
+	font-family: sans-serif;
+
+}
+#Userprofiles{
+	border-radius: 0.8em;
+	background-color: rgba(83, 110, 237, 0.6);
+}
+#Userprofiles span{
+	
+	font-size: 0.2in;
+}
+#Userprofiles img{
+	margin: 0.3em;
+
+}
+#enemyprofiles{
+	border-radius: 0.8em;
+	background-color: rgba(245, 127, 127, 0.6);
+}
+#enemyprofiles span{
+	
+	font-size: 0.2in;
+	
+}
+#enemyprofiles img{
+	margin: 0.3em;
+
+}
+#Userselection{
+	font-size: 0.190in;
+
+}
+#Userselection label{
+	color: rgba(0, 64, 255, 1.0);
+
+}
+#Userselection .username{
+
+	width: 97%;
+	height: 2em ;
+	padding: 0.2em;
+	border-color: rgba(244, 177, 3, 1.0);
+
+
+}
+#Userselection .username:hover{
+	border-radius: 0.4em;
+	border-color: rgba(252, 252, 3, 1.0);
+	box-shadow: 0.5em 0.2em 0.5em #888888;
+}
+#Userselection .username:focus{
+	box-shadow: 0.5em 0.2em 0.2em #888888;
+	border: 3px solid #c2eb86;
+
+}
+#Userselection #startgame{
+	justify-items: center;
+}
+#startgame{
+	width: 8em;
+	height: 3em ;
+	background-color: rgba(244, 177, 3, 0.3);
+
+}
+#startgame:hover{
+	border-radius: 0.4em;
+	box-shadow: 0.3em 0.2em 0.3em 0.1em #888888;
+	background-color: rgba(252, 252, 3, 0.3);
+}
+.Restart{
+	width: 8em;
+	height: 3em ;
+	background-color: rgba(244, 177, 3, 0.3);
+}
+.Restart:hover{
+	border-radius: 0.4em;
+	box-shadow: 0.3em 0.2em 0.3em 0.1em #888888;
+	background-color: rgba(252, 252, 3, 0.3);
+
+}
